@@ -137,7 +137,7 @@ const Home = () => {
                           </svg>
                         </div>
                         <div className="absolute top-9 lg:top-11 left-[3.2rem]">
-                          <p className="text-white">{index + 1}</p>
+                          <p className="text-white">{item.id}</p>
                         </div>
                         <CardContent className="p-0 flex-1">
                           <div className="flex justify-between items-start">
